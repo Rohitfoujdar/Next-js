@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+// import Navbar from './Navbar/page'; 
 // import Style from './page.module.css'
 
 function About() {
@@ -24,10 +26,11 @@ function About() {
             Management Team
           </h3>
           <div className="flex mt-[5px]">
-            <img
+            <Image
               className="h-[160px] w-[160px] rounded-full"
               src="https://s3.rdbuz.com/Images/profile/Prakash.png"
-              alt="CEO"
+              alt="CEO" width={200}
+              height={200}
             />
             <div className="w-[840px] ml-[10px]">
               <h4 className="text-[#D02025] font-semibold">
@@ -51,10 +54,11 @@ function About() {
           </div>
 
           <div className="flex mt-[50px]">
-            <img
+            <Image
               className="h-[170px] w-[160px] rounded-full mt-[11px]"
               src="https://www.apacciooutlook.com/newstransfer/upload/wpgag00000.jpg"
-              alt="CEO"
+              alt="CEO" width={200}
+              height={200}
             />
             <div className="w-[840px] ml-[10px]">
               <h4 className="text-[#D02025] font-semibold">Anoop Menon, CTO</h4>
